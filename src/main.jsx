@@ -5,14 +5,25 @@ import App from './App.jsx'
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Home from './components/Home/Home.jsx';
+import Root from './rootfile/Root.jsx';
+import Timeline from './timeline/Timeline.jsx';
+import States from './states/States.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    Component: Root,
+    children: [
+      { index: true, Component: Home },
+      { path: "/", element: Home },
+      { path: "/timeline", element: <Timeline /> },
+      { path: "/states", element: <States /> }
+    ],
   },
 ]);
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
