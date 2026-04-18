@@ -13,7 +13,7 @@ const HeroStates = () => {
             <div className="w-full py-8">
 
                   {/* Centered Container */}
-                  <div className="max-w-[1400px] mx-auto px-6">
+                  <div className="container mx-auto px-6">
 
                         {/* Responsive Grid */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

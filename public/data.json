@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "John Doe",
-    "picture": "https://example.com/photos/john.jpg",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "john@example.com",
     "days_since_contact": 25,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Chen",
-    "picture": "https://example.com/photos/sarah.jpg",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "sarah.c@techcorp.com",
     "days_since_contact": 5,
     "status": "active",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Michael Ross",
-    "picture": "https://example.com/photos/michael.jpg",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "mross@legalmail.com",
     "days_since_contact": 45,
     "status": "overdue",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Elena Rodriguez",
-    "picture": "https://example.com/photos/elena.jpg",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "elena.rod@travels.com",
     "days_since_contact": 2,
     "status": "active",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "David Kim",
-    "picture": "https://example.com/photos/david.jpg",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "dkim88@webmail.com",
     "days_since_contact": 12,
     "status": "upcoming",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Aisha Khan",
-    "picture": "https://example.com/photos/aisha.jpg",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "aisha.k@creative.io",
     "days_since_contact": 80,
     "status": "overdue",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Liam O'Connor",
-    "picture": "https://example.com/photos/liam.jpg",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "liam.oc@family.net",
     "days_since_contact": 3,
     "status": "active",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Sophia Rossi",
-    "picture": "https://example.com/photos/sophia.jpg",
+    "picture": "https://images.unsplash.com/photo-1531746020798-e7953eeadff0?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "s.rossi@design.com",
     "days_since_contact": 15,
     "status": "upcoming",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Marcus Thorne",
-    "picture": "https://example.com/photos/marcus.jpg",
+    "picture": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "m.thorne@venture.com",
     "days_since_contact": 120,
     "status": "overdue",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Chloe Bennett",
-    "picture": "https://example.com/photos/chloe.jpg",
+    "picture": "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "chloe.b@garden.org",
     "days_since_contact": 6,
     "status": "active",
@@ -122,7 +122,7 @@
   {
     "id": 11,
     "name": "Julian Valez",
-    "picture": "https://example.com/photos/julian.jpg",
+    "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "jvalez@music.com",
     "days_since_contact": 28,
     "status": "upcoming",
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "name": "Fatima Zahra",
-    "picture": "https://example.com/photos/fatima.jpg",
+    "picture": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&q=80&w=400&h=400",
     "email": "fatima.z@uni.edu",
     "days_since_contact": 10,
     "status": "active",

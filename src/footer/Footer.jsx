@@ -10,10 +10,10 @@ const Footer = () => {
       return (
             <footer className="w-full bg-[#1a3a2f] text-white py-12 md:py-24">
                   {/* --- Main Content (Contained) --- */}
-                  <div className="max-w-[1400px] mx-auto px-6 flex flex-col items-center text-center">
+                  <div className="max-w-350 mx-auto px-6 flex flex-col items-center text-center">
 
                         {/* Text Logo - Bold and Responsive */}
-                        <h2 className="text-4xl md:text-7xl font-extrabold tracking-tight mb-6">
+                        <h2 className="text-4xl md:text-xl font-extrabold tracking-tight mb-6">
                               Keen<span className="text-white/80">Keeper</span>
                         </h2>
 
@@ -38,7 +38,7 @@ const Footer = () => {
                                           <a
                                                 key={index}
                                                 href="#"
-                                                className="group w-16 h-16 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center transition-all duration-300 hover:bg-gray-100 hover:-translate-y-2 shadow-2xl"
+                                                className="group w-16 h-16 md:w-10 md:h-10 bg-white rounded-full flex items-center justify-center transition-all duration-300 hover:bg-gray-100 hover:-translate-y-2 shadow-2xl"
                                           >
                                                 {/* Icons are large and responsive */}
                                                 <img
@@ -54,7 +54,7 @@ const Footer = () => {
 
                   {/* --- Bottom Legal Bar (Contained) --- */}
                   <div className="mt-20 md:mt-28 border-t border-white/10 pt-10">
-                        <div className="max-w-[1400px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8 text-sm md:text-base text-gray-400">
+                        <div className="max-w-350 mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8 text-sm md:text-base text-gray-400">
 
                               <div className="order-2 md:order-1 font-medium">
                                     © {currentYear} KeenKeeper. All rights reserved.

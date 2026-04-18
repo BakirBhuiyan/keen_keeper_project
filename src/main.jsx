@@ -8,7 +8,9 @@ import Home from './components/Home/Home.jsx';
 import Root from './rootfile/Root.jsx';
 import Timeline from './timeline/Timeline.jsx';
 import States from './states/States.jsx';
-
+import FriendDetail from './components/friend/FriendDetail.jsx';
+import NotFound from './components/notfound/NotFound.jsx';
+import { AppProvider } from './context/AppContext';
 
 const router = createBrowserRouter([
   {
@@ -16,16 +18,22 @@ const router = createBrowserRouter([
     Component: Root,
     children: [
       { index: true, Component: Home },
-      { path: "/", element: Home },
-      { path: "/timeline", element: <Timeline /> },
-      { path: "/states", element: <States /> }
+      { path: "timeline", element: <Timeline /> },
+      { path: "states", element: <States /> },
+      { path: "friend/:id", element: <FriendDetail /> }
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound />
   },
 ]);
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AppProvider>
+      <RouterProvider router={router} />
+    </AppProvider>
   </StrictMode>
 )
